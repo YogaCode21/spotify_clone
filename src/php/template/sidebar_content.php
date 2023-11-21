@@ -11,9 +11,19 @@
         case 'obat':
             include_once "view-data-obat.php";
         break;
+        case 'karyawan':
+            include_once "view-data-karyawan.php";
+        break;
         case "pelanggan":
             include_once "view-data-pelanggan.php";
         break;
+        case "supplier":
+            include_once "view-data-supplier.php";
+        break;
+        case "transaksi":
+            include_once "view-data-transaksi.php";
+        break;
+        
         case "tambah_obat":
             include_once "../tambah/tambah_obat.php";
         break;
