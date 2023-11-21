@@ -1,3 +1,3 @@
 <?php
-    header('Location: ./App/php/view/dashboard.php?page=login');
+    header('Location: ./App/php/input/login.php');
 ?>
