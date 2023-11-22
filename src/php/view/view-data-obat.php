@@ -10,7 +10,7 @@
             </div>
             <div class="side">
                 <input class="bg-[#f0f3f4] pt-3 pb-3 pl-5 pr-32 rounded-full" type="text" placeholder="Cari nama obat">
-                <button class="bg-[#b40001] text-white pt-3 pb-3 pl-8 pr-8 rounded-full text-lg">Add Data</button>
+                <a href="../input/add_data_obat.php" class="bg-[#b40001] text-white pt-3 pb-3 pl-8 pr-8 rounded-full text-lg">Add Data</a>
             </div>
         </div>
         <hr class="my-5 h-0.5 border-t-0 bg-[#999999]" />
