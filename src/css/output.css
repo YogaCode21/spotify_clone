@@ -896,6 +896,10 @@ video {
   flex-wrap: wrap;
 }
 
+.content-center{
+  align-content: center;
+}
+
 .items-end{
   align-items: flex-end;
 }
@@ -1257,6 +1261,11 @@ video {
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold{

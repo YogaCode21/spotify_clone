@@ -1,5 +1,5 @@
 <div class="flex flex-col relative">
-    <div class="w-full ml-16  mt-5 px-6 py-8 bg-white rounded-3xl mb-[104px] ">
+    <div class="w-full ml-16  mt-5 px-6 py-8 bg-white rounded-3xl ">
         <div class="flex justify-between">
             <div class="header">
                 <h1 class="text-4xl font-bold">Dashboard</h1>
@@ -11,7 +11,7 @@
                 <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] w-full flex justify-between items-end py-3 px-5 rounded-md">
                     <div class="flex flex-col">
                         <p class="text-[#F14040] ">Karyawan</p>
-                        <h1 class="text-lg">Total 10B Akun</h1>
+                        <h1 class="text-lg">Total 27 Akun</h1>
                     </div>
                     <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32" fill="none">
@@ -24,7 +24,7 @@
                 <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] w-full flex justify-between items-end py-3 px-5 rounded-md">
                     <div class="flex flex-col">
                         <p class="text-[#F14040] ">Obat</p>
-                        <h1 class="text-lg">Total 4.54B Obat</h1>
+                        <h1 class="text-lg">Total 540 Obat</h1>
                     </div>
                     <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
@@ -37,7 +37,7 @@
                 <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] w-full flex justify-between items-end py-3 px-5 rounded-md">
                     <div class="flex flex-col">
                         <p class="text-[#F14040] ">Supplier</p>
-                        <h1 class="text-lg">Total 2.4M Supplier</h1>
+                        <h1 class="text-lg">Total 14 Supplier</h1>
                     </div>
                     <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="41" height="27" viewBox="0 0 41 27" fill="none">
@@ -50,7 +50,7 @@
                 <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] w-full flex justify-between items-end py-3 px-5 rounded-md">
                     <div class="flex flex-col">
                         <p class="text-[#F14040] ">Transaksi</p>
-                        <h1 class="text-lg font-medium">Total 10.5T Transaksi</h1>
+                        <h1 class="text-lg ">Total 109 Transaksi</h1>
                     </div>
                     <div class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="36" viewBox="0 0 18 36" fill="none">
@@ -74,14 +74,14 @@
                 </div>
             </div>
             <div class="w-[400px] shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md ">
-            <div class="flex p-5 pb-1">
-                        <h1 class="text-xl text-[#F14040]">Supplier Aktif</h1>
-                    </div>
-            <div class="py-5 pl-6 px-16">
-                
-            <img src="../../../image/roundChart.svg" alt="">
-            </div>    
-        </div>
+                <div class="flex p-5 pb-1">
+                    <h1 class="text-xl text-[#F14040]">Supplier Aktif</h1>
+                </div>
+                <div class="py-5 pl-6 px-16">
+
+                    <img src="../../../image/roundChart.svg" alt="">
+                </div>
+            </div>
         </div>
         <div class="flex justify-between items-center w-full rounded-md">
             <div class="w-8/12 shadow-[-5px_0_0_0_rgba(241,64,64,1)] rounded-md ">
@@ -92,29 +92,17 @@
                     </div>
                     <div class="py-5 p-5 pb-8 flex justify-between -mt-16">
                         <div class="flex items-end gap-5">
-                            <p class="text-[#999999] text-2xl">Rp <span class="text-4xl font-bold text-black">1.5 JT</span></p>
+                            <p class="text-[#999999] text-3xl">Rp <span class="text-4xl font-medium text-black">1.500.000,00</span></p>
                             <p class="bg-lime-600 text-white rounded-full py-1 px-3">+99%</p>
                         </div>
                         <img class="w-[244px]" src="../../../image/boxGraph.svg" alt="boxGraph">
                     </div>
                 </div>
             </div>
-                <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md w-3/12 h-[233px]">
+            <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md w-3/12 h-[233px]">
 
-                </div>
+            </div>
         </div>
     </div>
-    <div class="fixed right-0 bottom-0 w-full px-16 py-6 rounded-3xl">
-        <div class="flex flex-row items-center justify-end">
-            <button class="bg-[#b40001] text-white pt-3 pb-3 pl-5 pr-5 rounded-xl ">Previous</button>
-            <ul class="mx-3 flex gap-3">
-                <li class="px-5 py-3 font-bold bg-[#F0F3F4] rounded-full hover:bg-[#B40001] hover:text-white">1</li>
-                <li class="px-5 py-3 font-bold bg-[#F0F3F4] rounded-full hover:bg-[#B40001] hover:text-white">2</li>
-                <li class="px-5 py-3 font-bold bg-[#F0F3F4] rounded-full hover:bg-[#B40001] hover:text-white">...</li>
-                <li class="px-5 py-3 font-bold bg-[#F0F3F4] rounded-full hover:bg-[#B40001] hover:text-white">11</li>
-                <li class="px-5 py-3 font-bold bg-[#F0F3F4] rounded-full hover:bg-[#B40001] hover:text-white">12</li>
-            </ul>
-            <button class="bg-[#b40001] text-white pt-3 pb-3 pl-8 pr-8 rounded-xl ">Next</button>
-        </div>
-    </div>
+
 </div>
