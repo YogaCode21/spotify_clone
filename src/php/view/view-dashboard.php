@@ -1,8 +1,8 @@
 <div class="flex flex-col relative">
-    <div class="w-full ml-16  mt-5 px-6 py-8 bg-white shadow-lg rounded-3xl ">
+    <div class="w-full ml-16  mt-5 px-6 py-8 bg-white rounded-3xl mb-[104px] ">
         <div class="flex justify-between">
             <div class="header">
-                <h1 class="text-4xl ">Dashboard</h1>
+                <h1 class="text-4xl font-bold">Dashboard</h1>
             </div>
         </div>
         <hr class="my-5 h-0.5 border-t-0 bg-[#999999]" />
@@ -73,18 +73,25 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[400px] min-h-[329px] shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md ">
-            </div>
+            <div class="w-[400px] shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md ">
+            <div class="flex p-5 pb-1">
+                        <h1 class="text-xl text-[#F14040]">Supplier Aktif</h1>
+                    </div>
+            <div class="py-5 pl-6 px-16">
+                
+            <img src="../../../image/roundChart.svg" alt="">
+            </div>    
+        </div>
         </div>
         <div class="flex justify-between items-center w-full rounded-md">
-            <div class="w-1/2 shadow-[-5px_0_0_0_rgba(241,64,64,1)] rounded-md ">
+            <div class="w-8/12 shadow-[-5px_0_0_0_rgba(241,64,64,1)] rounded-md ">
                 <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md">
-                    <div class="flex flex-col p-5">
+                    <div class="flex flex-col p-5 ">
                         <h1 class="text-xl text-[#F14040]">Pendapatan</h1>
                         <p class="text-[#999999]">Laporan / Minggu</p>
                     </div>
-                    <div class="py-5 p-5 flex justify-between">
-                        <div class="flex items-center">
+                    <div class="py-5 p-5 pb-8 flex justify-between -mt-16">
+                        <div class="flex items-end gap-5">
                             <p class="text-[#999999] text-2xl">Rp <span class="text-4xl font-bold text-black">1.5 JT</span></p>
                             <p class="bg-lime-600 text-white rounded-full py-1 px-3">+99%</p>
                         </div>
@@ -92,8 +99,9 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="w-1/2 min-h-[329px] shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md ">
-            </div> -->
+                <div class="shadow-[0_0_11px_1px_rgba(0,0,0,0.1)] rounded-md w-3/12 h-[233px]">
+
+                </div>
         </div>
     </div>
     <div class="fixed right-0 bottom-0 w-full px-16 py-6 rounded-3xl">

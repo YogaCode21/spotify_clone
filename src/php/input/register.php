@@ -12,7 +12,7 @@
                 <input autocomplete="off" type="email" name="email" placeholder="email" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-white rounded-2xl">
                 <input autocomplete="off" type="password" name="password" placeholder="Password" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-white rounded-2xl">
             </form>
-            <input type="submit" value="Sign In" class="w-full bg-[#B40001] text-white pr-7 pl-7 pt-4 pb-4 rounded-2xl text-xl font-bold">
+            <input type="submit" value="Register" class="w-full bg-[#B40001] text-white pr-7 pl-7 pt-4 pb-4 rounded-2xl text-xl font-bold">
             <p class="mt-1 text-center">Already have an account? <a href="./login.php" class="text-[#B40001] font-bold">Login Now</a></p>
         </div>
     </div>
