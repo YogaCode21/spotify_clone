@@ -1,8 +1,5 @@
 <div class="flex flex-col">
     <div class="w-full ml-16  mt-5 px-6 py-8 bg-white shadow-lg rounded-3xl ">
-        <div class="w-full bg-red-900 ">
-
-        </div>
         <div class="flex justify-between">
             <div class="header">
                 <h1 class="text-4xl font-bold">Data Obat</h1>

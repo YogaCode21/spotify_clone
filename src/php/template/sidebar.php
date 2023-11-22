@@ -1,5 +1,5 @@
-<div id="sidebar" class=" shadow-lg w-64 h-screen rounded-none border-none z-50">
-    <div class="p-4 space-y-4 flex flex-col h-screen justify-between">
+<div id="sidebar" class=" w-64 h-screen rounded-none border-none z-50 ">
+    <div class="p-7 py-5 space-y-4 flex flex-col h-screen justify-between bg-white fixed shadow-lg ">
         <div class="top">
             <img class="w-[200px]" src="../../../image/Logo.svg" alt="">
             <hr class="my-5 h-0.5 border-t-0 bg-[#999999]" />
