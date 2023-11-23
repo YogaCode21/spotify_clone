@@ -10,37 +10,37 @@
             <img src="../../../image/money.svg" alt="girl-pink-vest" class="w-96">
         </div>
         <div class="register_input-container min-w-[400px]">
-            <h1 class="text-4xl font-medium mb-1">Tambah Data Transaksi</h1>
+            <h1 class="text-4xl font-medium mb-1">Edit Data Transaksi</h1>
             <p class="text-base">Silahkan Masukan Data sesuai kategori</p>
             <form action="" class="input-container flex flex-col items-end gap-4 mt-7 mb-7 text-end">
-                <div class="flex flex-wrap -mx-3 ">
+            <div class="flex flex-wrap -mx-3 ">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
                         <label class="text-left tracking-wide text-[#646464]" for="id_detail">id detail</label>
-                        <input type="text" id="id_detail" name="id_detail" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                        <input type="text" value="4" id="id_detail" name="id_detail" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                     </div>
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
                         <label class="text-left tracking-wide text-[#646464]" for="id_transaksi">id transaksi</label>
-                        <input type="text" id="id_transaksi" name="id_transaksi" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                        <input type="text" value="11" id="id_transaksi" name="id_transaksi" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 ">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
                         <label class="text-left tracking-wide text-[#646464]" for="id_obat">id obat</label>
-                        <input type="text" id="id_obat" name="id_obat" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                        <input type="text" value="14" id="id_obat" name="id_obat" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                     </div>
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
                         <label class="text-left tracking-wide text-[#646464]" for="jumlah">Jumlah</label>
-                        <input type="text" id="jumlah" name="jumlah" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                        <input type="text" value="21" id="jumlah" name="jumlah" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 ">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
                         <label class="text-left tracking-wide text-[#646464]" for="harga_satuaan">harga satuaan</label>
-                        <input type="text" id="harga_satuaan" name="harga_satuaan" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                        <input type="text" value="5000" id="harga_satuaan" name="harga_satuaan" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                     </div>
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
-                        <label class="text-left tracking-wide text-[#646464]" for="harga_satuaan">harga_satuaan</label>
-                        <input type="text" id="harga_satuaan" name="harga_satuaan" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                        <label class="text-left tracking-wide text-[#646464]" for="harga_total">harga total</label>
+                        <input type="text" value="105000" id="harga_total" name="harga_total" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                     </div>
                 </div>
             <input type="submit" value="Submit" class="w-full bg-[#B40001] text-white pr-7 pl-7 pt-4 pb-4 rounded-2xl text-xl font-bold">

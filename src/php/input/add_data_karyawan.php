@@ -14,23 +14,17 @@
             <p class="text-base">Silahkan Masukan Data sesuai kategori</p>
             <form action="" class="input-container flex flex-col items-end gap-4 mt-7 mb-7 text-end">
                 <div class="w-full flex flex-col gap-3">
-                    <label class="text-left text-[#646464]" for="Placeholder">Placeholder</label>
-                    <input type="text" id="Placeholder" name="Placeholder" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                    <label class="text-left text-[#646464]" for="nama">Nama Karyawan</label>
+                    <input type="text" id="nama" name="nama" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                 </div>
                 <div class="w-full flex flex-col gap-3">
-                    <label class="text-left text-[#646464]" for="Placeholder">Placeholder</label>
-                    <input type="text" id="Placeholder" name="Placeholder" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+                    <label class="text-left text-[#646464]" for="alamat">Alamat</label>
+                    <input type="text" id="alamat" name="alamat" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
                 </div>
-                <div class="flex flex-wrap -mx-3 ">
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
-                        <label class="text-left tracking-wide text-[#646464]" for="Placeholder">Placeholder</label>
-                        <input type="text" id="Placeholder" name="Placeholder" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
-                    </div>
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 flex flex-col">
-                        <label class="text-left tracking-wide text-[#646464]" for="Placeholder">Placeholder</label>
-                        <input type="text" id="Placeholder" name="Placeholder" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
-                    </div>
-                </div>
+                <div class="w-full flex flex-col gap-3">
+                    <label class="text-left text-[#646464]" for="telp">Telp</label>
+                    <input type="text" id="telp" name="telp" class="pr-7 pl-7 pt-4 pb-4 w-full bg-[#F4F0F0] text-black rounded-2xl">
+            </div>
             <input type="submit" value="Submit" class="w-full bg-[#B40001] text-white pr-7 pl-7 pt-4 pb-4 rounded-2xl text-xl font-bold">
 
             </form>
