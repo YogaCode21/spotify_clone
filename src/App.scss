@@ -1,0 +1,124 @@
+$greyDark: #040404;
+$greyLight: #131313;
+$greyLighter: #282828;
+$greyText: #b3b3b3;
+$greyNav: #090909;
+$greenMain: #1db954;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  height: calc(100vh - 90px);
+  background-color: $greyLight;
+}
+.navbar {
+  width: 220px;
+  height: 100%;
+  background-color: $greyDark;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  .logo {
+    padding: 2rem 1rem 1rem 1rem;
+    svg {
+      fill: white;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 10px 0;
+      transition: all 0.3s ease-in-out;
+      color: $greyText;
+      list-style-type: none;
+      border-radius: 5px;
+      padding: 0.7rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      &.active {
+        background-color: $greyLighter;
+        font-weight: bold;
+      }
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .cookies {
+    font-size: 0.7rem;
+    color: $greyText;
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem;
+    span {
+      display: block;
+    }
+  }
+}
+.outerWrap {
+  background-color: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+.musicControl {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $greyLighter;
+  text-align: center;
+  height: 90px;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  .upperNav {
+    background-color: $greyNav;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0.5rem 2rem;
+  }
+  .mainContent {
+    color: white;
+    padding: 1rem 2rem;
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.cardsWrap {
+  .card {
+    background-color: $greyLighter;
+    border-radius: 10px;
+    width: max-content;
+    overflow: hidden;
+    padding: 1rem;
+    .cardImage {
+      height: 170px;
+      width: 170px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      img {
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    .cardContent {
+      padding: 0.5rem 0;
+      h3 {
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+  }
+}
