@@ -3,12 +3,12 @@ const Main = () => {
     <div className="main">
       <div className="upperNav">test</div>
       <div className="mainContent">
-        <h1>Focus</h1>
         <div className="cardsWrap">
+          <h1>Recently Played</h1>
           <div className="card">
             <div className="cardImage">
               <img
-                src="https://images.unsplash.com/photo-1679718890686-7f16f411b460?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1672002759660-93f177240b60?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Card Image"
               />
             </div>
@@ -16,7 +16,6 @@ const Main = () => {
               <h3>Lofi Music</h3>
               <p>Lofi Girl</p>
             </div>
-
             <span className="playIcon">
               <svg
                 data-encore-id="icon"
@@ -30,6 +29,9 @@ const Main = () => {
               </svg>
             </span>
           </div>
+        </div>
+        <div className="cardsWrap">
+          <h1>Focus</h1>
           <div className="card">
             <div className="cardImage">
               <img
@@ -38,10 +40,9 @@ const Main = () => {
               />
             </div>
             <div className="cardContent">
-              <h3>Lofi Music Lorem ipsum dolor sit amet.</h3>
-              <p>Yoga Dharma</p>
+              <h3>Lofi Music</h3>
+              <p>Lofi Girl</p>
             </div>
-
             <span className="playIcon">
               <svg
                 data-encore-id="icon"
